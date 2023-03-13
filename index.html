@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script defer src="./JS/main.js"></script>
+</head>
+<body>
+    <main class="container">
+        <header class="head">
+            <h1>TO DO LIST</h1>
+            <h2>2023</h2>
+        </header>
+        <section class="info">
+            <div class="info__add">
+                <input class="input" id="text" type="text" placeholder="Escribe aquí tú tarea">
+                <img id="agregar" class="icon" src="./images/plus.svg" alt="">
+            </div>
+            <div class="info__tareas" id="info__tareas">
+                <div class="tarea">
+                    <!-- <div class="info__tarea">
+                        <p class="tarea__text">
+                        New tarea por realizar
+                        </p>
+                        <img id="eliminar" class="icon" src="./images/borrar.svg" alt="">
+                    </div> -->
+                </div>
+                <p id="info__general" class="info__general">
+                   Tareas pendientes: <span id="pendiente">0</span> | Tareas realizadas: <span id="realizada">0</span>
+               </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

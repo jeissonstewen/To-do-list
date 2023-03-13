@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100vh;
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 50%;
+    height: 80vh;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: rgba(220, 220, 205, 0.489);
+}
+.head{
+    background-color: rgba(165, 42, 42, 0.628);
+    background-repeat: no-repeat;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.head h1{
+    color: #2A3D45;
+    font-size: 50px;
+}
+.head h2{
+    color: #BCAC9B;
+    font-size: 40px;
+}
+.info{
+    height: 75%;
+    padding: 3%;
+}
+.info__add{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+.input{
+    border: none;
+    padding: 1% 2%;
+    width: 90%;
+}
+.icon{
+    margin: auto;
+    cursor: pointer;
+}
+.info__tareas{
+    height: 90%;
+    padding: 2% 0;
+}
+.tarea{
+    width: 80%;
+    margin: auto;
+}
+.info__tarea{
+    display: flex;
+    margin: 3px 0;
+}
+.tarea__text{
+    background-color: #2a3d45a1;
+    padding: 1%;
+    width: 90%;
+}
+.info__general{
+    padding-left: 3%;
+}
